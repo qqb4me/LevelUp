@@ -203,7 +203,7 @@ public class ClickerController : MonoBehaviour
         if (previousCoins < halfProgressThreshold && currentCoins >= halfProgressThreshold)
         {
 #if !UNITY_EDITOR && InterstitialAdv_yg && YandexGamesPlatform_yg
-            YG.Insides.YGInsides.OpenInterAdv();
+            YG.YG2.InterstitialAdvShow();
 #endif
         }
     }
